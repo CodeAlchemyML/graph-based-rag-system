@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cybersec-graph-rag"
+version = "0.1.0"
+description = "A graph-based RAG system using Langgraph and Langchain for a cybersecurity use case."
+authors = ["Awiksshiith Narang <avikshitnarang@gmail.com>"]
+packages = [{include = "cybersec_graph_rag", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "*"
+langgraph = "*"
+pymongo = "*"
+networkx = "*"
+fastapi = "^0.115.4"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+six = "^1.16.0"
+langchain-community = "^0.3.5"
+openai = "^1.54.3"
